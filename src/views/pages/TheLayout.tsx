@@ -5,7 +5,7 @@ import Main from "./common/Main";
 
 export default function TheLayout() {
   return (
-    <div>
+    <div className="">
       <div>
         <Header />
       </div>
