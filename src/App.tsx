@@ -1,3 +1,4 @@
+import React from "react";
 import TheLayout from "./views/pages/TheLayout";
 
 function App() {

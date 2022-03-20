@@ -9,9 +9,9 @@ export default function TheLayout() {
       <div>
         <Header />
       </div>
-      <main>
+      <div>
         <Main />
-      </main>
+      </div>
       <div>
         <Footer />
       </div>
