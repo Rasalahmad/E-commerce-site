@@ -1,7 +1,7 @@
-import useApi from "hooks/useApi";
-import ProductService from "services/Product.service";
-import DSlider from "views/components/custom/DSlider";
-import ProductList from "views/components/home/ProductList";
+import useApi from "../../../hooks/useApi";
+import ProductService from "../../../services/Product.service";
+import DSlider from "../../components/custom/DSlider";
+import ProductList from "../../components/home/ProductList";
 
 export default function Home() {
   const { data: products } = useApi<IProduct[]>(ProductService.getAllProduct);
